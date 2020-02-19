@@ -5,8 +5,6 @@
 var countNegatives = function (grid) {
   let count = 0;
   for (let i = 0; i < grid.length; i++) {
-    console.log(grid[i], i, grid[i].length - 1);
-    console.log(grid[i][grid[i].length - 1]);
     if (grid[i][grid[i].length - 1] >= 0) {
       continue;
     }
